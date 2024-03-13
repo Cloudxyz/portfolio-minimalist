@@ -1,0 +1,89 @@
+---
+import Section from '@/components/Section.astro'
+
+import { work } from '@cv'
+---
+
+<Section title="Experiencia">
+	<ul>
+		{
+			work.map(({name, position, url, startDate, endDate, summary, highlights}) => {
+				const startYear = new Date(startDate).getFullYear();
+				const endYear = endDate != null ? new Date(endDate).getFullYear() : null;
+				const years = `${startYear} - ${endYear || 'Presente'}`
+				return (
+					<li>
+						<article>
+							<header>
+								<div>
+									<h3>{name}</h3>
+									<h4>{position}</h4>
+									<ul class="c--highlights">
+										{highlights.map((highlight) => (
+											<li>- {highlight}</li>
+										))}
+									</ul>
+								</div>
+								<time>{years}</time>
+							</header>
+							<footer>
+								<p>{summary}</p>
+							</footer>
+						</article>
+					</li>
+				)
+			})
+		}
+	</ul>
+</Section>
+
+<style>
+	ul{
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	article h3{
+		font-weight: 500;
+		color: #111;
+	}
+
+	article h4{
+		font-weight: 400;
+		color: #222;
+	}
+
+	header{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 4px;
+	}
+
+	time{
+		color: #555;
+		font-size: 0.85rem;
+	}
+
+	.c--highlights{
+		display: inline-flex;
+		gap: 8px;
+		flex-wrap: wrap;
+		margin-top: 0.2rem;
+	}
+
+	.c--highlights li{
+		border-radius: 6px;
+		background: #eee;
+		color: black;
+		font-size: 0.8rem;
+		font-weight: 500;
+		padding: 0.2rem 0.6rem;
+	}
+
+	.c--highlights li:hover{
+		background: #ddd;
+		cursor: default;
+	}
+</style>
