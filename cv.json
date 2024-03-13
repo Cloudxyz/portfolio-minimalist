@@ -5,8 +5,8 @@
     "image": "/me.webp",
     "email": "info.devalan@gmail.com",
     "phone": "+52 3222009581",
-    "url": "https://midu.dev",
-    "summary": "+6 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "url": "https://cloudxyz.github.io",
+    "summary": "+6 años de experiencia como Desarrollador Web",
     "location": {
       "address": "",
       "postalCode": "48290",
@@ -17,52 +17,56 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "Devalan",
+        "url": "https://www.linkedin.com/in/devalan-dev/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "Devalan",
+        "url": "https://github.com/Cloudxyz"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "SB Realtors",
+      "position": "Full Stack Developer",
+      "url": "https://sbrealtors.mx",
+      "startDate": "2023-08-03",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Desarrollo de sitios y herramientas organizacionales para los diferentes desarrollos de Real Estate",
       "highlights": [
-        "Started the company"
+        "Optimización de sitios",
+		"Desarrollo de sitios",
+		"Desarrollo de aplicaciones"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Carbono Marketing",
+      "position": "Full Stack Developer",
+      "url": "https://carbonomarketing.com",
+      "startDate": "2021-08-04",
+      "endDate": "2023-02-25",
+      "summary": "Desarrollo de sitios para los diferentes clientes de la agencia",
       "highlights": [
-        "Started the company"
+		"Optimización de sitios",
+		"Desarrollo de sitios",
+		"Desarrollo de aplicaciones",
+		"Consultoria con clientes",
+		"Reuniones con clientes para aterrizar sus ideas"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Freelancer",
+      "position": "Full Stack Developer",
+      "startDate": "2015-04-12",
+      "endDate": null,
+      "summary": "Desarrollo de sitios para diferentes clientes",
       "highlights": [
-        "Started the company"
+		"Desarrollo de sitios",
+		"Desarrollo de aplicaciones",
+		"Consultoria con clientes",
+		"Reuniones con clientes para aterrizar sus ideas"
       ]
     }
   ],
@@ -88,25 +92,6 @@
     "courses": [
       "DB1101 - Basic SQL"
     ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
   }],
   "skills": [
     {
